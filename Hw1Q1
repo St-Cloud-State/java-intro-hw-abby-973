@@ -1,0 +1,14 @@
+public class Person {
+
+  //string fields
+  private String firstName;
+  private String lastName;
+  private String ID;
+
+  //constructor
+  public person(String firstName, String lastName, String ID){
+    firstName = fname;
+    lastName = lname;
+    ID = id;
+  }
+
