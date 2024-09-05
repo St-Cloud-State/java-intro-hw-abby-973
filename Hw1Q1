@@ -12,3 +12,18 @@ public class Person {
     ID = id;
   }
 
+//Accessor methods
+  public String getFirstName(){
+    return fname;
+  }
+  public String getLastName(){
+    return lname;
+  }
+  public String getID(){
+    return id;
+  }
+
+  //to string method
+  public String toString(){
+    return "Ther person's first name is " + fname + ", last name is " + lname + ", and id is " + id + ".";
+  }
